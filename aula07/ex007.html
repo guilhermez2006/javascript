@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números</title>
+    <style>
+        /* Estilização da página */
+        body {
+            font: normal 18pt Arial;
+        }
+
+        /* Estilização dos inputs */
+        input {
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+
+        /* Margem superior para o resultado */
+        div #res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Somando Valores</h1>
+
+    <!-- Campos para entrada de números -->
+    <input type="number" name="txtn1" id="txtn1">
+    <input type="number" name="txtn2" id="txtn2">
+
+    <!-- Botão que chama a função "somar()" ao ser clicado -->
+    <input type="button" value="Somar" onclick="somar()">
+
+    <!-- Div onde o resultado será exibido -->
+    <div id="res">Resultado</div>
+
+    <script>
+        function somar() {
+            // Captura os elementos de input
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.querySelector('input#txtn2')
+
+            // Converte os valores dos inputs de string para número
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+
+            // Realiza a soma dos dois números
+            var s = n1 + n2
+
+            // Exibe o resultado na div "res"
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
+        }
+    </script>
+</body>
+
+</html>
