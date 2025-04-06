@@ -13,11 +13,29 @@ section {
     border-radius: 10px;
     padding: 15px;
     margin: auto;
+    width: 90%;
+    max-width: 600px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.452);
-}+
+}
 
-Vamos l footer {
-    background-color: white;
+footer {
+   
     font-style: italic;
     text-align: center;
+    padding: 10px;
+ 
 }
+cdd {
+    color: rgb(250, 207, 143);
+}
+#msg {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#foto-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
