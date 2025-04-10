@@ -1,0 +1,66 @@
+
+body {
+    background-color: rgb(101, 170, 250);
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#secaoPrincipal {
+    background-color: rgb(247, 157, 157);
+    color: black;
+    text-align: left;
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+label, input {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: -17px;
+}
+
+label {
+    font-size: 17px;
+    font-family: Arial;
+    width: 80px;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin: 0 auto; 
+    padding: 4px 18px;
+    position: relative; /* Permite personalizar top/bottom */
+    top: 50px; 
+    bottom: 0; 
+}
+
+button:hover {
+    background-color: rgb(115, 179, 252);
+}
+#resultado {
+    margin-top: 95px;
+}
+footer {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
