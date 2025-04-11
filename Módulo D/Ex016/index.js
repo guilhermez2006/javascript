@@ -1,13 +1,13 @@
 function Contar() {
-    // Pega os valores digitados pelo usuário e converte pra número
-    let inicio = Number(document.getElementById('inicio').value);
-    let fim = Number(document.getElementById('fim').value);
-    let passo = Number(document.getElementById('passo').value);
+    // Pega os valores digitados pelo usuário
+    let inicio = document.getElementById('inicio').value;
+    let fim = document.getElementById('fim').value;
+    let passo = document.getElementById('passo').value;
     let resultado = document.getElementById('resultado');
 
     // Verifica se algum campo está vazio
-    if (inicio === 0 && fim === 0 && passo === 0) {
-        resultado.innerHTML = 'Preencha os dados corretamente!';
+    if (inicio === '' || fim === '' || passo === '') {
+        resultado.innerHTML = '🚫 Preencha todos os campos!';
         return;
     }
 
