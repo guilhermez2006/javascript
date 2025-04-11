@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(83, 190, 146);
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#secaoPrincipal {
+    background-color: rgb(90, 139, 67);
+    color: black;
+    text-align: left;
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+label,
+input {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: -17px;
+}
+
+label {
+    font-size: 17px;
+    font-family: Arial;
+    width: 80px;
+}
+
+.linha-horizontal {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 4px 10px;
+    margin: 0; /* Remove o margin-left gigante */
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: rgb(83, 190, 146);
+}
+
+#resultado {
+    margin-top: 95px;
+}
+
+footer {
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+}
