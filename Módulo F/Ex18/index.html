@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <main>
+        <section id="secaoPrincipal">
+            <div class="linha-horizontal">
+                <label for="numero">Número (entre 1 e 100):</label>
+                <input type="number" id="numero" style="width: 130px;">
+                <button onclick="adicionar()">Adicionar</button>
+            </div>
+            <div>
+                <select id="lista" size="9"></select><br>
+                <button onclick="finalizar()">Finalizar</button>
+            </div>
+            <div id="resultado">Resultado...</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Guilherme Lima</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
